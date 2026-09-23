@@ -1,3 +1,5 @@
+> **Note:** This repository is a fork of [satnaing/shadcn-admin](https://github.com/satnaing/shadcn-admin) maintained for internal front-end QA exercises.
+
 # Shadcn Admin Dashboard
 
 Admin Dashboard UI crafted with Shadcn and Vite. Built with responsiveness and accessibility in mind.

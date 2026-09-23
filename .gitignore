@@ -32,3 +32,9 @@ dist-ssr
 # Vitest artifacts (browser screenshots/attachments)
 **/__screenshots__/
 .vitest-attachments/
+
+# Local setup notes (untracked)
+SETUP_NOTES.md
+
+# Internal working files (never published)
+private/
