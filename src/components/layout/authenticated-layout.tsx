@@ -21,8 +21,8 @@ export function AuthenticatedLayout({ children }: AuthenticatedLayoutProps) {
           <AppSidebar />
           <SidebarInset
             className={cn(
-              // Set content container, so we can use container queries
-              '@container/content',
+              // Set main container, so we can use container queries
+              '@container/main',
 
               // If layout is fixed, set the height
               // to 100svh to prevent overflow
