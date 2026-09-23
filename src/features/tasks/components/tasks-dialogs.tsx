@@ -23,13 +23,10 @@ export function TasksDialogs() {
       {currentRow && (
         <>
           <TasksMutateDrawer
-            key={`task-update-${currentRow.id}`}
+            key='task-update'
             open={open === 'update'}
             onOpenChange={() => {
               setOpen('update')
-              setTimeout(() => {
-                setCurrentRow(null)
-              }, 500)
             }}
             currentRow={currentRow}
           />
