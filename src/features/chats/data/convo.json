@@ -18,6 +18,11 @@
           "timestamp": "2024-08-24T11:11:30"
         },
         {
+          "sender": "Alex",
+          "message": "Here are the Lighthouse results from last night's run: https://ci.example.com/shadcn_admin/pipelines/20240823/build_8841/artifacts/lighthouse/mobile_performance_report.html",
+          "timestamp": "2024-08-23T17:40:00"
+        },
+        {
           "sender": "You",
           "message": "For sure. Anyway, I should get back to reviewing the project.",
           "timestamp": "2024-08-23T09:26:50"
