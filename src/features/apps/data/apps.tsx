@@ -16,7 +16,14 @@ import {
   IconWhatsapp,
 } from '@/assets/brand-icons'
 
-export const apps = [
+export type App = {
+  name: string
+  logo: React.ReactNode
+  connected: boolean
+  desc: string
+}
+
+export const apps: App[] = [
   {
     name: 'Telegram',
     logo: <IconTelegram />,
